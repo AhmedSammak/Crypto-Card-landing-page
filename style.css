@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bona Nova", serif;
+}
+
+/* NAV BAR */
+
+nav.nav {
+  position: relative;
+  top: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.logo-img {
+  position: absolute;
+  left: 40px;
+  cursor: pointer;
+}
+
+p.nav-head {
+  position: absolute;
+  left: 80px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #19191b;
+  cursor: pointer;
+}
+
+p.nav-dash {
+  position: absolute;
+  left: 250px;
+  font-size: 30px;
+  color: rgb(129, 125, 125);
+}
+
+p.nav-personal {
+  position: absolute;
+  left: 300px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1111ff;
+  cursor: pointer;
+}
+
+p.nav-business {
+  position: absolute;
+  left: 400px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #19191b;
+  cursor: pointer;
+}
+
+ul.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 200px;
+}
+
+li.nav-element {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button.nav-btn {
+  position: absolute;
+  right: 40px;
+  height: 40px;
+  width: 131px;
+  background: linear-gradient(to right, #5656f2, #3333dc);
+  box-shadow: 0px 4px 10px #e7e7fb;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.500211px;
+  color: #ffffff;
+  border: 1px solid #3333dc;
+  cursor: pointer;
+}
+
+/* HOME PAGE */
+
+section.home {
+  background: url(Background.png);
+  background-repeat: no-repeat;
+  background-position: 0cm 0cm;
+  background-color: #f5f5f5;
+}
+
+div.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+div.home-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 110px 0px 100px 110px;
+}
+
+h1.home-head {
+  font-size: 75px;
+  font-weight: 700;
+  color: #19191b;
+}
+
+span.home-crypto-span {
+  color: #6d6dfc;
+}
+
+img.home-pic {
+  margin: 100px 50px 100px 0px;
+}
+
+p.home-parag {
+  width: 600px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 39px;
+  color: #696871;
+  margin: 25px 110px 0px 0px;
+}
+
+button.home-btn {
+  background: linear-gradient(to left, #3333dc, #5656f2);
+  border: 0.5px solid #3333dc;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 17px 40px;
+  border-radius: 7px;
+  margin: 50px 510px 0px 0px;
+  cursor: pointer;
+}
+
+/* Account Card*/
+
+section.account-card {
+  background-color: #f5f5f5;
+}
+
+div.account-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 630px;
+  margin-left: 435px;
+}
+
+p.account-card-span {
+  font-weight: 700;
+  font-size: 16.2957px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #a8a5ca;
+}
+
+h1.account-card-head {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 84px;
+  color: #19191b;
+}
+
+span.head-kyc {
+  color: #6e6efc;
+}
+
+p.account-card-parag {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #696871;
+}
+
+button.account-card-btn {
+  background: linear-gradient(to left, #3333dc, #5656f2);
+  border: 0.5px solid #3333dc;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 17px 40px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 50px 0px 350px 0px;
+}
+
+/*VISA*/
+
+section.visa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+div.visa-content {
+  position: relative;
+}
+
+div.visa-check {
+  position: relative;
+  right: 150px;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 590px;
+  height: 200px;
+  background: #ffffff;
+  box-shadow: 0px 33.7643px 81.6624px rgba(120, 120, 168, 0.17);
+  border-radius: 5px;
+}
+
+.fa-regular {
+  position: absolute;
+  left: 50px;
+  background-color: #d1fae5;
+  color: #10b981;
+  border-radius: 50%;
+}
+
+.fa-regular.a {
+  position: absolute;
+  top: 50px;
+}
+
+.visa-check-parag.a {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.fa-regular.b {
+  position: absolute;
+  top: 130px;
+  left: 50px;
+}
+
+.visa-check-parag.b {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+}
+
+.visa-check-parag {
+  position: absolute;
+  left: 80px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 39px;
+  letter-spacing: -0.6px;
+  color: #19191b;
+}
+
+div.visa-content {
+  position: absolute;
+  bottom: 453px;
+  right: 0px;
+}
+
+img.visa-type {
+  position: absolute;
+  right: 250px;
+  top: 200px;
+}
+
+div.visa-pic {
+  position: relative;
+}
+
+img.whiteVisa {
+  position: absolute;
+  left: 50px;
+  bottom: 115px;
+}
+
+img.blueVisa {
+  margin: 90px 900px 0px 0px;
+}
